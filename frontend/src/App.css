@@ -6,7 +6,6 @@
 
 /* TOP HALF OF DASHBOARD */
 .top-container {
-  border: 1px solid red;
   display: flex;
   justify-content: space-evenly;
   gap: 10px;
@@ -14,8 +13,9 @@
 }
 
 .legend-container, .map-container, .filters-container {
-  border: 1px solid green;
-  margin-top: 10px;
+  border: 1px solid rgba(170, 59, 255, 0.1);
+  border-radius: 3px;
+  margin-top: 10px 0;
 }
 
 .legend-container {
@@ -34,7 +34,6 @@
 
 /* BOTTOM HALF OF DASHBOARD */
 .bottom-container {
-  border: 1px solid red;
   display: flex;
   justify-content: space-evenly;
   gap: 10px;
@@ -42,7 +41,8 @@
 }
 
 .graphic-container {
-  border: 1px solid green;
+  border: 1px solid rgba(170, 59, 255, 0.1);
+  border-radius: 3px;
   flex: 1;
   margin: 10px 0;
 }
